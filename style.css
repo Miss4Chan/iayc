@@ -500,12 +500,16 @@ footer {
     position: absolute;
     color: white;
     text-align: left;
-    text-shadow: 0 0 5px gray, 0 0 5px cornflowerblue, 0 0 10px;
+    text-shadow: 0 0 10px black, 0 0 2px cornflowerblue, 0 0 10px;
     font-size: 15px;
     top: 120px;
     left: 30px;
     width: 55vw;
     line-height: 30px;
+}
+.section-engines__text h3
+{
+    text-transform: uppercase;
 }
 .section-engines__text2
 {

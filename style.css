@@ -33,7 +33,11 @@ body {
 .header nav > div {
     flex: 1;
 }
-
+.header nav >div img
+{
+    height: 100px;
+    width: 100px;
+}
 .nav-text {
     display: flex;
     justify-content: flex-end;
@@ -473,7 +477,7 @@ footer {
 {
     height: 800px;
     width: 100vw;
-    background-color: #514aa3;
+    position: relative;
 }
 .engine
 {
@@ -560,4 +564,19 @@ footer {
 .card > a
 {
     text-decoration: none;
+}
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    width: 100vw;
+    height: 700px;
+}
+#kopche
+{
+    height: 60px;
+    width: 150px;
+    color: #5f96d9;
+    position: absolute;
+    bottom: 10px;
+    left: 45vw;
 }

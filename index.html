@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="imgs/icon.jpg">
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <div>
+                    <img src="imgs/" alt="Logo">
+                </div>
+                <div class="nav-text">
+                    <a href="index.html">Home</a>
+                    <a  class="info-button" href="Info.html">Info/Mechanics</a>
+                    <a href="Info.html#game">Game</a>
+                </div>
+            </nav>
+            <div class="header__text-box">
+                <h1>
+                    <span class="header__text-box--primary">Game_Name</span>
+                    <span class="header__text-box--secondary">Fun and educational experience</span>
+                </h1>
+            </div>
+        </div>
+        <main>
+            <section class="section-about">
+                <h3>What is our platform all about?</h3>
+                <div class="section-about__main">
+                    <div class="section-about__text">
+                        <h4>Explore the galaxy</h4>
+                        <p>Hop on board the best and newest spaceships and join us in the exploration of the universe</p>
+                        <h4>Brace yourselves</h4>
+                        <p>Fly with us and learn about astronomy</p>
+                        <a href="Info.html">Read important information→</a>
+                    </div>
+                    <div class="section-about__imgs">
+                        <img class="section-about__imgs-1" src="imgs/" alt="slika1">
+                        <img class="section-about__imgs-2" src="imgs/" alt="slika2">
+                        <img class="section-about__imgs-3" src="imgs/" alt="slika3">
+                    </div>
+                </div>
+            </section>
+            <section class="section-cards">
+              <div class="bg-video">
+                  <video autoplay muted loop>
+                   <source src="imgs/Pexels%20Videos%203867.mp4" type="video/mp4">
+               </video>
+              </div>
+                <div class="card">
+                    <i class="material-icons">&#xeb41;</i>
+                    <h5>Easy to use</h5>
+                    <p>Our game is made for everyone and provides a fun experience to all users</p>
+                </div>
+                <div class="card">
+                    <i class="material-icons">&#xe8e5;</i>
+                    <h5>Accurate information</h5>
+                    <p>The information provided for educational purposes is in check with the newest research and it's constantly updated</p>
+                </div>
+                <div class="card">
+                    <i class="material-icons">&#xe192;</i>
+                    <h5>Start now</h5>
+                    <p>Within a few clicks lays a vast realm of knowledge and science</p>
+                </div>
+            </section>
+            <section id="section-pricing" class="section-pricing">
+                <h3>Check out the gamemodes</h3>
+                <div class="section-pricing__offers">
+                    <div class="offer-card">
+                        <div class="offer-card-header offer-1">
+                            <h5>Exploration</h5>
+                        </div>
+                        <div class="offer-card-text">
+                            <p>Pick your spaceship</p>
+                            <p>Hop on board</p>
+                            <p>Choose a starting location</p>
+                            <p>Fly around the galaxy</p>
+                            <p>Explore planets and stars</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-card-header offer-2">
+                            <h5>Quiz Mode</h5>
+                        </div>
+                        <div class="offer-card-text">
+                            <p>Same as exploration</p>
+                            <p><b>But with a twist</b></p>
+                            <p>Upon leaving a planet or a constelation answer questions about the given place</p>
+                            <p>Level up and get ingame perks</p>
+                        </div>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-card-header offer-3">
+                            <h5>Kids mode</h5>
+                        </div>
+                        <div class="offer-card-text">
+                            <p>Easier mechanics</p>
+                            <p>Child friendly</p>
+                            <p>Online games that include a learning element</p>
+                            <p>24/7 support from our mentors</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-contact" class="section-about_us">
+                <div class="contact">
+                    <div class="inner-contact">
+                        <h3>Contact Us</h3>
+                        <form action="post">
+                            <input autocomplete="off" name="email" placeholder="Your email" id="email" type="email">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                            <button>Submit your message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>All rights reserved. GAME_NAME© 2021</p>
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
